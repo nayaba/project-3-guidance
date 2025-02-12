@@ -91,7 +91,7 @@ Example: If your app tracks **applications**, replace `resources` with `applicat
 
 ## Project Ideas (Simple CRUD Apps)
 
-Here are some ideas for projects where a **user owns many** of **one resource**.  You can use them, you can change them, or you can make your own:
+Here are some ideas for projects where a **user owns many** of **one resource** (remember you need **TWO resources**).  You can use them, you can change them, or you can make your own:
 
 - **Book Tracker:** Users save books to read or review.
   - User: username, password
