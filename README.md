@@ -1,4 +1,4 @@
-# MEN-Stack Project Planning Guide
+# Component Project Planning Guide
 
 ## Project Planning Requirements
 
@@ -78,13 +78,11 @@ User has many listings.  Listings **reference** the user.
 ## **Table of RESTful Routes**
 | HTTP Method| RESTful Route          | Controller Function       |
 |------------|------------------------|---------------------------|
-| GET        | `/resources`           | `myCtrl.index()`          |
-| GET        | `/resources/new`       | `myCtrl.newResource()`    |
-| POST       | `/resources`           | `myCtrl.create()`         |
-| GET        | `/resources/:id`       | `myCtrl.show()`           |
-| DELETE     | `/resources/:id`       | `myCtrl.destroy()`        |
-| GET        | `/resources/:id/edit`  | `myCtrl.edit()`           |
-| PUT        | `/resources/:id`       | `myCtrl.update()`         |
+| GET        | `/resources`           | `index()`                 |
+| POST       | `/resources`           | `create()`                |
+| GET        | `/resources/:id`       | `show()`                  |
+| DELETE     | `/resources/:id`       | `destroy()`               |
+| PUT        | `/resources/:id`       | `update()`                |
 
 
 Example: If your app tracks **applications**, replace `resources` with `applications`.
@@ -139,11 +137,7 @@ These are **optional** but add extra value to your project.
 
 ---
 
-View the requirements for the COMPLETED project [here](https://docs.google.com/spreadsheets/d/1pFC-UECiwA1WIAPr8elKyKrO-Cq3-7R7bdsg1R2tDyQ/edit?gid=696206981#gid=696206981)
+View the requirements for the COMPLETED project [here](https://generalassembly.instructure.com/courses/676/pages/mern-stack-crud-app-group-project-journey-start-here?module_item_id=56478)
 
-🔗 **Links to Past Student Examples:**
-
-- [Food Sharing Project](https://food-sharing-project-d4d381d5ecad.herokuapp.com/)
-- [iBlog](https://iblog-app-9921fffa6a4a.herokuapp.com/) 
 
 Good luck! 🚀
