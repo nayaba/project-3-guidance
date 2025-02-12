@@ -1,4 +1,4 @@
-# Component Project Planning Guide
+# Project Planning Guide
 
 ## Project Planning Requirements
 
